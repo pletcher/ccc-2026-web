@@ -60,8 +60,7 @@ def _build_collections(proto_dir: Path) -> list[dict]:
                             "title": doc_meta.get("title", ver_dir.name),
                             "language": lang,
                             "language_label": "grc",
-                            "first_chunk_url": url_for(
-                                "reading_view",
+                            "first_chunk_kwargs": dict(
                                 corpus=corpus,
                                 textgroup=tg_dir.name,
                                 work=work_dir.name,
