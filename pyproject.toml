@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "flask>=3.1.3",
+    "frozen-flask>=1.0.2",
     "perseus-cts",
 ]
 
@@ -23,3 +24,4 @@ packages = ["src/poikilogos"]
 
 [project.scripts]
 dev = "poikilogos.app:main"
+build = "poikilogos.app:build"

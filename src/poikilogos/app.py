@@ -215,6 +215,25 @@ def main():
     return app
 
 
+def build():
+    from flask_frozen import Freezer
+
+    FREEZER_DESTINATION = ROOT_DIR / "build"
+
+    app = create_app()
+
+    app.config.update(
+        FREEZER_BASE_URL=os.getenv("FREEZER_BASE_URL", ""),
+        FREEZER_DEFAULT_MIMETYPE="text/html",
+        FREEZER_DESTINATION=FREEZER_DESTINATION,
+        FREEZER_IGNORE_404_NOT_FOUND=True,
+    )
+
+    freezer = Freezer(app)
+
+    freezer.freeze()
+
+
 @dataclass
 class _Chunk:
     cts_urn: str

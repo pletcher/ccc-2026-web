@@ -3,7 +3,7 @@
 To get started:
 
 ```
-uv install
+uv sync
 uv run dev
 ```
 
