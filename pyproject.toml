@@ -1,0 +1,12 @@
+[project]
+name = "poikilogos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "perseus-cts",
+]
+
+[tool.uv.sources]
+perseus-cts = { git = "https://github.com/PerseusDLCode/perseus-cts.git" }
