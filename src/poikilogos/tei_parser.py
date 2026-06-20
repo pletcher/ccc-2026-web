@@ -193,7 +193,7 @@ def _inject_into_element(el: dict, tokens: list[dict]) -> None:
                 t for t in tokens if child["start"] <= t["start_char"] < child["end"]
             ]
             if run_tokens:
-                _line_heat = sum(
+                line_heat = sum(
                     [t.get("misc", {}).get("heat", 0.0) for t in run_tokens]
                 ) / len(run_tokens)  # use this heat to average over the line
                 new_children.extend(
@@ -201,6 +201,7 @@ def _inject_into_element(el: dict, tokens: list[dict]) -> None:
                         **t,
                         "tagname": "token",
                         "heat": t.get("misc", {}).get("heat", 0.0),
+                        "line_heat": line_heat,
                     }
                     for t in run_tokens
                 )

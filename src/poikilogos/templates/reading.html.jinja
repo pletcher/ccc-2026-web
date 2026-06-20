@@ -16,8 +16,8 @@
         </div>
 
         <div>
-            <div><span class="px-4 bg-blue-500 mr-2"></span> Tragedy</div>
-            <div><span class="px-4 bg-red-500 mr-2"></span> Epic</div>
+            <div><span class="px-4 mr-2" style="background-color: #00429d;"></span> Tragedy</div>
+            <div><span class="px-4 mr-2" style="background-color: #93003a;"></span> Epic</div>
         </div>
     </header>
 {% endblock %}
@@ -120,78 +120,81 @@
 {% block scripts %}
 <script>
 (function() {
-    const lineEls = document.querySelectorAll(".tei-token")
+    const lineEls = document.getElementsByClassName("tei-l")
 
-    lineEls.forEach(line => {
+    // palette via https://gka.github.io/palettes/
+    // blues reversed because the palette goes from darkest
+    // blue to darkest red
+    Array.from(lineEls).forEach(line => {
         const heat = line.dataset.heat;
         let bgColor = "bg-primary-50";
         let magnitude = 0;
 
+        const palette = {
+            blues: [
+                '#00429d',
+                '#2b57a7',
+                '#426cb0',
+                '#5681b9',
+                '#6997c2',
+                '#7daeca',
+                '#93c4d2',
+                '#abdad9',
+                '#caefdf'
+            ].reverse(),
+            reds: [
+                '#ffe2ca',
+                '#ffc4b4',
+                '#ffa59e',
+                '#f98689',
+                '#ed6976',
+                '#dd4c65',
+                '#ca2f55',
+                '#b11346',
+                '#93003a'
+            ],
+        };
+
+        const selectFrom = heat < 0 ? 'blues' : 'reds';
         // this looks gross, but it's so that the CSS
         // compiler can pick out the colors that might
         // be used, rather than throwing the classes away
-        if (heat < -0.9) {
-            bgColor = "bg-blue-900";
+        if (Math.abs(heat) > 0.9) {
+            bgColor = palette[selectFrom][8];
             magnitude = 900;
-        } else if (heat < -0.8) {
-            bgColor = "bg-blue-800";
+        } else if (Math.abs(heat) > 0.8) {
+            bgColor = palette[selectFrom][7];
             magnitude = 800;
-        } else if (heat < -0.7) {
-            bgColor = "bg-blue-700";
+        } else if (Math.abs(heat) > 0.7) {
+            bgColor = palette[selectFrom][6]
             magnitude = 700;
-        } else if (heat < -0.6) {
-            bgColor = "bg-blue-600";
+        } else if (Math.abs(heat) > 0.6) {
+            bgColor = palette[selectFrom][5]
             magnitude = 600;
-        } else if (heat < -0.5) {
-            bgColor = "bg-blue-500";
+        } else if (Math.abs(heat) > 0.5) {
+            bgColor = palette[selectFrom][4]
             magnitude = 500;
-        } else if (heat < -0.4) {
-            bgColor = "bg-blue-400";
+        } else if (Math.abs(heat) > 0.4) {
+            bgColor = palette[selectFrom][3]
             magnitude = 400;
-        } else if (heat < -0.3) {
-            bgColor = "bg-blue-300";
+        } else if (Math.abs(heat) > 0.3) {
+            bgColor = palette[selectFrom][2]
             magnitude = 300;
-        } else if (heat < -0.2) {
-            bgColor = "bg-blue-200";
+        } else if (Math.abs(heat) > 0.2) {
+            bgColor = palette[selectFrom][1]
             magnitude = 200;
-        } else if (heat < -0.1) {
-            bgColor = "bg-blue-100";
+        } else if (Math.abs(heat) > 0.1) {
+            bgColor = palette[selectFrom][0]
             magnitude = 100;
-        } else if (heat > 0.1) {
-            bgColor = "bg-red-100";
-            magnitude = 100;
-        } else if (heat > 0.2) {
-            bgColor = "bg-red-200";
-            magnitude = 200;
-        } else if (heat > 0.3) {
-            bgColor = "bg-red-300";
-            magnitude = 300;
-        } else if (heat > 0.4) {
-            bgColor = "bg-red-400";
-            magnitude = 400;
-        } else if (heat > 0.5) {
-            bgColor = "bg-red-500";
-            magnitude = 500;
-        } else if (heat > 0.6) {
-            bgColor = "bg-red-600";
-            magnitude = 600;
-        } else if (heat > 0.7) {
-            bgColor = "bg-red-700";
-            magnitude = 700;
-        } else if (heat > 0.8) {
-            bgColor = "bg-red-800";
-            magnitude = 800;
-        } else if (heat > 0.9) {
-            bgColor = "bg-red-900";
-            magnitude = 900;
         }
 
-        if (magnitude > 600) {
-            line.classList.add("text-base-100")
+        const innerLine = line.querySelector(".tei-inner-l");
+
+        if (magnitude > 500) {
+            innerLine.classList.add("text-base-100")
         }
 
-        line.classList.add("inline-block");
-        line.classList.add(bgColor);
+        innerLine.style["background-color"] = bgColor;
     });
 })()
 </script>
