@@ -2,6 +2,10 @@
 
 {% block title %}{{ pub_info.author }}, {{ chunk.title }}, {{ chunk.cts_urn.rsplit(':', 1)[-1] }}{% endblock %}
 
+{% block head %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mimno/TextVariableVis@main/variable-vis.css">
+{% endblock %}
+
 {% block header %}
     <header class="hero mb-4">
         <div class="px-8 text-base-content w-full">
@@ -16,8 +20,8 @@
         </div>
 
         <div>
-            <div><span class="px-4 mr-2" style="background-color: #00429d;"></span> Tragedy</div>
-            <div><span class="px-4 mr-2" style="background-color: #93003a;"></span> Epic</div>
+            <div><span class="px-4 mr-2" style="background-color: #799ccd;"></span> Tragedy</div>
+            <div><span class="px-4 mr-2" style="background-color: #cd9279;"></span> Epic</div>
         </div>
     </header>
 {% endblock %}
@@ -51,7 +55,7 @@
                 {% endif %}
             </div>
 
-            <div class="prose">
+            <div class="prose tvv-mode-explicit">
                 {% set notes = namespace(items=[]) %}
                 {% for element in chunk.elements %}
                     {% with text_container = element %}

@@ -1,5 +1,5 @@
-{% set line_heat = text_container.children[0].line_heat %}
-<div class="prose tei-l flex justify-between w-full" data-heat="{{ line_heat }}">
+{% set line_heat = text_container.children[0].get('line_heat', 0) %}
+<div class="prose tei-l flex justify-between tvv tvv-center tvv-gutter tvv-wash" style="--tvv-value: {{ -line_heat }};">
     <div class="tei-inner-l">
         {%- for child in text_container.children -%}
             {%- set child_urn = child.urn if child.urn else text_container.urn -%}
