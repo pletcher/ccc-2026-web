@@ -23,7 +23,7 @@ def chunk_corpus(corpus_dir: Path, protopage_dir: Path):
 
 ROOT_DIR = Path(__file__).parent.parent
 CORPUS_DIR = ROOT_DIR / "corpus"
-PROTOPAGE_DIR = ROOT_DIR / "proto-pages"
+PROTOPAGE_DIR = ROOT_DIR / "proto-pages" / "greekLit"
 
 if __name__ == "__main__":
     PROTOPAGE_DIR.mkdir(exist_ok=True)
