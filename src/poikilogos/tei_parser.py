@@ -1,6 +1,9 @@
+import json
 import logging
 import re
 import unicodedata
+
+from pathlib import Path
 
 from xml.sax import xmlreader
 from xml.sax.handler import ContentHandler
@@ -10,6 +13,12 @@ import lxml.sax  # ty: ignore
 from lxml import etree
 
 PARATEXTUAL_ELEMENTS = frozenset({"note", "noteGrp", "speaker"})
+
+APP_DIR = Path(__file__).resolve().parent
+ROOT_DIR = APP_DIR.parent.parent
+with (ROOT_DIR / "scripts" / "tragedy_urn_heat.json").open() as f:
+    HEAT_BY_URN = json.load(f)
+
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -135,12 +144,11 @@ class TEIParser(ContentHandler):
         if tagname == "speaker":
             self._pending_speaker = None
 
-        if attrs.get("type") is not None and attrs.get("n") is not None:
+        if attrs.get("n") is not None:
             self.citable_stack.append(attrs)
 
-            location = [c["n"] for c in self.citable_stack if c.get("n")]
-
-            self.current_urn = f"{self.base_urn}:{'.'.join(location)}"
+            location = attrs.get("n")
+            self.current_urn = f"{self.base_urn}:{location}"
 
         attrs.update(
             {
@@ -188,20 +196,24 @@ def inject_tokens(elements: list[dict], tokens: list[dict]) -> None:
 def _inject_into_element(el: dict, tokens: list[dict]) -> None:
     new_children = []
     for child in el.get("children", []):
+        if child.get("tagname") == "l":
+            heat = HEAT_BY_URN.get(child.get("urn"), 0.0)
+            child = {**child, "line_heat": heat}
+
         if child.get("tagname") == "text_run" and "start" in child:
             run_tokens = [
                 t for t in tokens if child["start"] <= t["start_char"] < child["end"]
             ]
             if run_tokens:
-                line_heat = sum(
-                    [t.get("misc", {}).get("heat", 0.0) for t in run_tokens]
-                ) / len(run_tokens)  # use this heat to average over the line
+                # line_heat = sum(
+                #     [t.get("misc", {}).get("heat", 0.0) for t in run_tokens]
+                # ) / len(run_tokens)  # use this heat to average over the line
                 new_children.extend(
                     {
                         **t,
                         "tagname": "token",
-                        "heat": t.get("misc", {}).get("heat", 0.0),
-                        "line_heat": line_heat,
+                        # "heat": t.get("misc", {}).get("heat", 0.0),
+                        # "line_heat": line_heat,
                     }
                     for t in run_tokens
                 )

@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from flask import Flask, abort, render_template, url_for
+from flask import Flask, abort, render_template
 from lxml import etree
 
 from poikilogos.tei_parser import TEIParser, TEIParserError, inject_tokens

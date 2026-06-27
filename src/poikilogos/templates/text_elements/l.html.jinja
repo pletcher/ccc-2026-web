@@ -1,4 +1,4 @@
-{% set line_heat = text_container.children[0].get('line_heat', 0) %}
+{% set line_heat = text_container.get('line_heat', 0)|float %}
 <div class="prose tei-l flex justify-between tvv tvv-center tvv-gutter tvv-wash" style="--tvv-value: {{ -line_heat }};">
     <div class="tei-inner-l">
         {%- for child in text_container.children -%}
