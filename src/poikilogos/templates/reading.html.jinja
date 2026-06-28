@@ -29,7 +29,7 @@
                     <legend class="fieldset-legend">Heatmap options</legend>
                     <label class="label">
                         <input type="checkbox" class="toggle" id="heatmap-toggle" />
-                        Heatmap by line (poetry only)
+                        Heatmap by line/paragraph
                     </label>
                 </fieldset>
             </div>
@@ -136,6 +136,7 @@
 <script>
 (function() {
     const lineEls = document.getElementsByClassName("tei-l");
+    const pEls = document.getElementsByClassName("tei-p");
     const tokenEls = document.getElementsByClassName("tei-token");
 
     Array.from(lineEls).forEach(line => {
@@ -147,7 +148,18 @@
         // we're using the opposite polarity of TVV's default scale, so
         // flip it here
         line.setAttribute("style", `--tvv-value: ${-lineHeat}`);
-    })
+    });
+
+    Array.from(pEls).forEach(p => {
+        const tokens = p.getElementsByClassName("tei-token")
+        const pHeat = Array.from(tokens)
+            .map(t => parseFloat(t.dataset.heat))
+            .reduce((sum, heat) => (sum + heat));
+
+        // we're using the opposite polarity of TVV's default scale, so
+        // flip it here
+        p.setAttribute("style", `--tvv-value: ${-pHeat}`);
+    });
 
     document.getElementById("heatmap-toggle").addEventListener("change", (e) => {
         if (e.target.checked) {
@@ -157,6 +169,9 @@
             Array.from(lineEls).forEach(el => {
                 el.classList.add('tvv', 'tvv-center', 'tvv-gutter', 'tvv-wash')
             });
+            Array.from(pEls).forEach(el => {
+                el.classList.add('tvv', 'tvv-center', 'tvv-gutter', 'tvv-wash')
+            });
         } else {
             Array.from(lineEls).forEach(el => {
                 el.classList.remove('tvv', 'tvv-center', 'tvv-gutter', 'tvv-wash')
@@ -164,6 +179,10 @@
             Array.from(tokenEls).forEach(el => {
                 el.classList.add('tvv', 'tvv-center', 'tvv-wash')
             });
+
+            Array.from(pEls).forEach(el => {
+                el.classList.remove('tvv', 'tvv-center', 'tvv-gutter', 'tvv-wash')
+            })
         }
     })
 })()
