@@ -19,6 +19,9 @@ ROOT_DIR = APP_DIR.parent.parent
 with (ROOT_DIR / "scripts" / "tragedy_urn_heat.json").open() as f:
     HEAT_BY_URN = json.load(f)
 
+with (ROOT_DIR / "scripts" / "epic_tragic.json").open() as f:
+    HEAT_BY_TOKEN = json.load(f)
+
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -205,15 +208,17 @@ def _inject_into_element(el: dict, tokens: list[dict]) -> None:
                 t for t in tokens if child["start"] <= t["start_char"] < child["end"]
             ]
             if run_tokens:
-                # line_heat = sum(
-                #     [t.get("misc", {}).get("heat", 0.0) for t in run_tokens]
-                # ) / len(run_tokens)  # use this heat to average over the line
                 new_children.extend(
                     {
                         **t,
                         "tagname": "token",
-                        # "heat": t.get("misc", {}).get("heat", 0.0),
-                        # "line_heat": line_heat,
+                        "heat": sum(
+                            [
+                                float(HEAT_BY_TOKEN.get(w.get("lemma"), "0.0"))
+                                for w in t.get("words")
+                            ]
+                        )
+                        / len(t.get("words", [1])),
                     }
                     for t in run_tokens
                 )
