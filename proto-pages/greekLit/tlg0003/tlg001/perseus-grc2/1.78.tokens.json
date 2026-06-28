@@ -1,0 +1,3978 @@
+{
+  "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78",
+  "tokens": [
+    {
+      "end_char": 11,
+      "id": [
+        1
+      ],
+      "identifier": "‘βουλεύεσθε[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 0,
+      "text": "‘βουλεύεσθε",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 1,
+          "deprel": "root",
+          "deps": null,
+          "feats": "Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act",
+          "head": 0,
+          "lemma": "‘βουλεύομαι",
+          "misc": null,
+          "text": "‘βουλεύεσθε",
+          "upos": "VERB",
+          "xpos": "v2pria---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@‘βουλεύεσθε[1]"
+    },
+    {
+      "end_char": 15,
+      "id": [
+        2
+      ],
+      "identifier": "οὖν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 12,
+      "text": "οὖν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 2,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 1,
+          "lemma": "οὖν",
+          "misc": null,
+          "text": "οὖν",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@οὖν[1]"
+    },
+    {
+      "end_char": 23,
+      "id": [
+        3
+      ],
+      "identifier": "βραδέως[1]",
+      "misc": {
+        "heat": -0.5653636667774841
+      },
+      "ner": null,
+      "start_char": 16,
+      "text": "βραδέως",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 3,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 1,
+          "lemma": "βραδύς",
+          "misc": null,
+          "text": "βραδέως",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@βραδέως[1]"
+    },
+    {
+      "end_char": 26,
+      "id": [
+        4
+      ],
+      "identifier": "ὡς[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 24,
+      "text": "ὡς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 4,
+          "deprel": "mark",
+          "deps": null,
+          "feats": null,
+          "head": 7,
+          "lemma": "ὡς",
+          "misc": null,
+          "text": "ὡς",
+          "upos": "SCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὡς[1]"
+    },
+    {
+      "end_char": 29,
+      "id": [
+        5
+      ],
+      "identifier": "οὐ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 27,
+      "text": "οὐ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 5,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 7,
+          "lemma": "οὐ",
+          "misc": null,
+          "text": "οὐ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@οὐ[1]"
+    },
+    {
+      "end_char": 34,
+      "id": [
+        6
+      ],
+      "identifier": "περὶ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 30,
+      "text": "περὶ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 6,
+          "deprel": "case",
+          "deps": null,
+          "feats": null,
+          "head": 7,
+          "lemma": "περί",
+          "misc": null,
+          "text": "περὶ",
+          "upos": "ADP",
+          "xpos": "r--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@περὶ[1]"
+    },
+    {
+      "end_char": 42,
+      "id": [
+        7
+      ],
+      "identifier": "βραχέων[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 35,
+      "text": "βραχέων",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 7,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Neut|Number=Plur",
+          "head": 1,
+          "lemma": "βραχή",
+          "misc": null,
+          "text": "βραχέων",
+          "upos": "NOUN",
+          "xpos": "n-p---ng-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@βραχέων[1]"
+    },
+    {
+      "end_char": 43,
+      "id": [
+        8
+      ],
+      "identifier": ",[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 42,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 8,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 9,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 47,
+      "id": [
+        9
+      ],
+      "identifier": "καὶ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 44,
+      "text": "καὶ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 9,
+          "deprel": "cc",
+          "deps": null,
+          "feats": null,
+          "head": 1,
+          "lemma": "καί",
+          "misc": null,
+          "text": "καὶ",
+          "upos": "CCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@καὶ[1]"
+    },
+    {
+      "end_char": 50,
+      "id": [
+        10
+      ],
+      "identifier": "μὴ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 48,
+      "text": "μὴ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 10,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 18,
+          "lemma": "μή",
+          "misc": null,
+          "text": "μὴ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@μὴ[1]"
+    },
+    {
+      "end_char": 61,
+      "id": [
+        11
+      ],
+      "identifier": "ἀλλοτρίαις[1]",
+      "misc": {
+        "heat": 1.72717109036306
+      },
+      "ner": null,
+      "start_char": 51,
+      "text": "ἀλλοτρίαις",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 11,
+          "deprel": "nmod",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Fem|Number=Plur",
+          "head": 12,
+          "lemma": "ἀλλότριος",
+          "misc": null,
+          "text": "ἀλλοτρίαις",
+          "upos": "ADJ",
+          "xpos": "a-p---fd-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἀλλοτρίαις[1]"
+    },
+    {
+      "end_char": 69,
+      "id": [
+        12
+      ],
+      "identifier": "γνώμαις[1]",
+      "misc": {
+        "heat": -4.56439804919526
+      },
+      "ner": null,
+      "start_char": 62,
+      "text": "γνώμαις",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 12,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Fem|Number=Plur",
+          "head": 15,
+          "lemma": "γνώμη",
+          "misc": null,
+          "text": "γνώμαις",
+          "upos": "NOUN",
+          "xpos": "n-p---fd-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@γνώμαις[1]"
+    },
+    {
+      "end_char": 73,
+      "id": [
+        13
+      ],
+      "identifier": "καὶ[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 70,
+      "text": "καὶ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 13,
+          "deprel": "cc",
+          "deps": null,
+          "feats": null,
+          "head": 12,
+          "lemma": "καί",
+          "misc": null,
+          "text": "καὶ",
+          "upos": "CCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@καὶ[2]"
+    },
+    {
+      "end_char": 83,
+      "id": [
+        14
+      ],
+      "identifier": "ἐγκλήμασι[1]",
+      "misc": {
+        "heat": -0.47005348697315946
+      },
+      "ner": null,
+      "start_char": 74,
+      "text": "ἐγκλήμασι",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 14,
+          "deprel": "conj",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Neut|Number=Plur",
+          "head": 12,
+          "lemma": "ἔγκλημα",
+          "misc": null,
+          "text": "ἐγκλήμασι",
+          "upos": "NOUN",
+          "xpos": "n-p---nd-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἐγκλήμασι[1]"
+    },
+    {
+      "end_char": 94,
+      "id": [
+        15
+      ],
+      "identifier": "πεισθέντες[1]",
+      "misc": {
+        "heat": 0.43411588436865084
+      },
+      "ner": null,
+      "start_char": 84,
+      "text": "πεισθέντες",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 15,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass",
+          "head": 18,
+          "lemma": "πείθω",
+          "misc": null,
+          "text": "πεισθέντες",
+          "upos": "VERB",
+          "xpos": "v-pappmn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πεισθέντες[1]"
+    },
+    {
+      "end_char": 102,
+      "id": [
+        16
+      ],
+      "identifier": "οἰκεῖον[1]",
+      "misc": {
+        "heat": -2.772638579967205
+      },
+      "ner": null,
+      "start_char": 95,
+      "text": "οἰκεῖον",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 16,
+          "deprel": "nmod",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Sing",
+          "head": 17,
+          "lemma": "οἰκεῖος",
+          "misc": null,
+          "text": "οἰκεῖον",
+          "upos": "ADJ",
+          "xpos": "a-s---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@οἰκεῖον[1]"
+    },
+    {
+      "end_char": 108,
+      "id": [
+        17
+      ],
+      "identifier": "πόνον[1]",
+      "misc": {
+        "heat": -1.3650668204000296
+      },
+      "ner": null,
+      "start_char": 103,
+      "text": "πόνον",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 17,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Sing",
+          "head": 18,
+          "lemma": "πόνος",
+          "misc": null,
+          "text": "πόνον",
+          "upos": "NOUN",
+          "xpos": "n-s---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πόνον[1]"
+    },
+    {
+      "end_char": 118,
+      "id": [
+        18
+      ],
+      "identifier": "πρόσθησθε[1]",
+      "misc": {
+        "heat": -2.2618129562012146
+      },
+      "ner": null,
+      "start_char": 109,
+      "text": "πρόσθησθε",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 18,
+          "deprel": "conj",
+          "deps": null,
+          "feats": "Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid",
+          "head": 1,
+          "lemma": "προστίθημι",
+          "misc": null,
+          "text": "πρόσθησθε",
+          "upos": "VERB",
+          "xpos": "v2pamm---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πρόσθησθε[1]"
+    },
+    {
+      "end_char": 119,
+      "id": [
+        19
+      ],
+      "identifier": ".[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 118,
+      "text": ".",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 19,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 1,
+          "lemma": ".",
+          "misc": null,
+          "text": ".",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 123,
+      "id": [
+        1
+      ],
+      "identifier": "τοῦ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 120,
+      "text": "τοῦ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 1,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Masc|Number=Sing",
+          "head": 3,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τοῦ",
+          "upos": "DET",
+          "xpos": "l-s---mg-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τοῦ[1]"
+    },
+    {
+      "end_char": 126,
+      "id": [
+        2
+      ],
+      "identifier": "δὲ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 124,
+      "text": "δὲ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 2,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 14,
+          "lemma": "δέ",
+          "misc": null,
+          "text": "δὲ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@δὲ[1]"
+    },
+    {
+      "end_char": 134,
+      "id": [
+        3
+      ],
+      "identifier": "πολέμου[1]",
+      "misc": {
+        "heat": 2.1943216506263887
+      },
+      "ner": null,
+      "start_char": 127,
+      "text": "πολέμου",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 3,
+          "deprel": "nmod",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Masc|Number=Sing",
+          "head": 5,
+          "lemma": "πόλεμος",
+          "misc": null,
+          "text": "πολέμου",
+          "upos": "NOUN",
+          "xpos": "n-s---mg-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πολέμου[1]"
+    },
+    {
+      "end_char": 138,
+      "id": [
+        4
+      ],
+      "identifier": "τὸν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 135,
+      "text": "τὸν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 4,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Sing",
+          "head": 5,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τὸν",
+          "upos": "DET",
+          "xpos": "l-s---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τὸν[1]"
+    },
+    {
+      "end_char": 148,
+      "id": [
+        5
+      ],
+      "identifier": "παράλογον[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 139,
+      "text": "παράλογον",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 5,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Sing",
+          "head": 13,
+          "lemma": "παράλογος",
+          "misc": null,
+          "text": "παράλογον",
+          "upos": "ADJ",
+          "xpos": "a-s---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@παράλογον[1]"
+    },
+    {
+      "end_char": 149,
+      "id": [
+        6
+      ],
+      "identifier": ",[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 148,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 6,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 7,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 154,
+      "id": [
+        7
+      ],
+      "identifier": "ὅσος[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 150,
+      "text": "ὅσος",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 7,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Sing",
+          "head": 14,
+          "lemma": "ὅσος",
+          "misc": null,
+          "text": "ὅσος",
+          "upos": "ADJ",
+          "xpos": "a-s---mn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὅσος[1]"
+    },
+    {
+      "end_char": 159,
+      "id": [
+        8
+      ],
+      "identifier": "ἐστί[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 155,
+      "text": "ἐστί",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 8,
+          "deprel": "cop",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+          "head": 7,
+          "lemma": "εἰμί",
+          "misc": null,
+          "text": "ἐστί",
+          "upos": "AUX",
+          "xpos": "v3spia---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἐστί[1]"
+    },
+    {
+      "end_char": 160,
+      "id": [
+        9
+      ],
+      "identifier": ",[3]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 159,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 9,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 7,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 165,
+      "id": [
+        10
+      ],
+      "identifier": "πρὶν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 161,
+      "text": "πρὶν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 10,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 14,
+          "lemma": "πρίν",
+          "misc": null,
+          "text": "πρὶν",
+          "upos": "SCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πρὶν[1]"
+    },
+    {
+      "end_char": 168,
+      "id": [
+        11
+      ],
+      "identifier": "ἐν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 166,
+      "text": "ἐν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 11,
+          "deprel": "case",
+          "deps": null,
+          "feats": null,
+          "head": 12,
+          "lemma": "ἐν",
+          "misc": null,
+          "text": "ἐν",
+          "upos": "ADP",
+          "xpos": "r--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἐν[1]"
+    },
+    {
+      "end_char": 173,
+      "id": [
+        12
+      ],
+      "identifier": "αὐτῷ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 169,
+      "text": "αὐτῷ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 12,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Masc|Number=Sing",
+          "head": 13,
+          "lemma": "αὐτός",
+          "misc": null,
+          "text": "αὐτῷ",
+          "upos": "PRON",
+          "xpos": "p-s---md-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@αὐτῷ[1]"
+    },
+    {
+      "end_char": 182,
+      "id": [
+        13
+      ],
+      "identifier": "γενέσθαι[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 174,
+      "text": "γενέσθαι",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 13,
+          "deprel": "xcomp",
+          "deps": null,
+          "feats": "Tense=Past|VerbForm=Inf|Voice=Mid",
+          "head": 14,
+          "lemma": "γίγνομαι",
+          "misc": null,
+          "text": "γενέσθαι",
+          "upos": "VERB",
+          "xpos": "v--anm---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@γενέσθαι[1]"
+    },
+    {
+      "end_char": 194,
+      "id": [
+        14
+      ],
+      "identifier": "προδιάγνωτε[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 183,
+      "text": "προδιάγνωτε",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 14,
+          "deprel": "root",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act",
+          "head": 0,
+          "lemma": "προδιάγνυμι",
+          "misc": null,
+          "text": "προδιάγνωτε",
+          "upos": "VERB",
+          "xpos": "v2ppia---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@προδιάγνωτε[1]"
+    },
+    {
+      "end_char": 195,
+      "id": [
+        15
+      ],
+      "identifier": "·[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 194,
+      "text": "·",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 15,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 14,
+          "lemma": "·",
+          "misc": null,
+          "text": "·",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 207,
+      "id": [
+        1
+      ],
+      "identifier": "μηκυνόμενος[1]",
+      "misc": {
+        "heat": -0.8755185950813239
+      },
+      "ner": null,
+      "start_char": 196,
+      "text": "μηκυνόμενος",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 1,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid",
+          "head": 3,
+          "lemma": "μηκύνω",
+          "misc": null,
+          "text": "μηκυνόμενος",
+          "upos": "VERB",
+          "xpos": "v-sppemn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@μηκυνόμενος[1]"
+    },
+    {
+      "end_char": 211,
+      "id": [
+        2
+      ],
+      "identifier": "γὰρ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 208,
+      "text": "γὰρ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 2,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 3,
+          "lemma": "γάρ",
+          "misc": null,
+          "text": "γὰρ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@γὰρ[1]"
+    },
+    {
+      "end_char": 217,
+      "id": [
+        3
+      ],
+      "identifier": "φιλεῖ[1]",
+      "misc": {
+        "heat": 0.36526818236732844
+      },
+      "ner": null,
+      "start_char": 212,
+      "text": "φιλεῖ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 3,
+          "deprel": "root",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act",
+          "head": 0,
+          "lemma": "φιλέω",
+          "misc": null,
+          "text": "φιλεῖ",
+          "upos": "VERB",
+          "xpos": "v3spia---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@φιλεῖ[1]"
+    },
+    {
+      "end_char": 220,
+      "id": [
+        4
+      ],
+      "identifier": "ἐς[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 218,
+      "text": "ἐς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 4,
+          "deprel": "case",
+          "deps": null,
+          "feats": null,
+          "head": 5,
+          "lemma": "εἰς",
+          "misc": null,
+          "text": "ἐς",
+          "upos": "ADP",
+          "xpos": "r--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἐς[1]"
+    },
+    {
+      "end_char": 226,
+      "id": [
+        5
+      ],
+      "identifier": "τύχας[1]",
+      "misc": {
+        "heat": -5.523109496953367
+      },
+      "ner": null,
+      "start_char": 221,
+      "text": "τύχας",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 5,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Fem|Number=Plur",
+          "head": 3,
+          "lemma": "τύχη",
+          "misc": null,
+          "text": "τύχας",
+          "upos": "NOUN",
+          "xpos": "n-p---fa-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τύχας[1]"
+    },
+    {
+      "end_char": 229,
+      "id": [
+        6
+      ],
+      "identifier": "τὰ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 227,
+      "text": "τὰ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 6,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Neut|Number=Plur",
+          "head": 5,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τὰ",
+          "upos": "DET",
+          "xpos": "l-p---na-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τὰ[1]"
+    },
+    {
+      "end_char": 235,
+      "id": [
+        7
+      ],
+      "identifier": "πολλὰ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 230,
+      "text": "πολλὰ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 7,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Neut|Number=Plur",
+          "head": 8,
+          "lemma": "πολύς",
+          "misc": null,
+          "text": "πολλὰ",
+          "upos": "ADJ",
+          "xpos": "a-p---na-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πολλὰ[1]"
+    },
+    {
+      "end_char": 248,
+      "id": [
+        8
+      ],
+      "identifier": "περιίστασθαι[1]",
+      "misc": {
+        "heat": 2.302535235266622
+      },
+      "ner": null,
+      "start_char": 236,
+      "text": "περιίστασθαι",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 8,
+          "deprel": "xcomp",
+          "deps": null,
+          "feats": "Tense=Pres|VerbForm=Inf|Voice=Mid",
+          "head": 3,
+          "lemma": "περιίστημι",
+          "misc": null,
+          "text": "περιίστασθαι",
+          "upos": "VERB",
+          "xpos": "v--pne---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@περιίστασθαι[1]"
+    },
+    {
+      "end_char": 249,
+      "id": [
+        9
+      ],
+      "identifier": ",[4]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 248,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 9,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 13,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 252,
+      "id": [
+        10
+      ],
+      "identifier": "ὧν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 250,
+      "text": "ὧν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 10,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Neut|Number=Plur",
+          "head": 13,
+          "lemma": "ὅς",
+          "misc": null,
+          "text": "ὧν",
+          "upos": "PRON",
+          "xpos": "p-p---ng-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὧν[1]"
+    },
+    {
+      "end_char": 257,
+      "id": [
+        11
+      ],
+      "identifier": "ἴσον[1]",
+      "misc": {
+        "heat": 0.23294599002979746
+      },
+      "ner": null,
+      "start_char": 253,
+      "text": "ἴσον",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 11,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Neut|Number=Sing",
+          "head": 13,
+          "lemma": "ἴσος",
+          "misc": null,
+          "text": "ἴσον",
+          "upos": "ADJ",
+          "xpos": "a-s---na-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἴσον[1]"
+    },
+    {
+      "end_char": 260,
+      "id": [
+        12
+      ],
+      "identifier": "τε[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 258,
+      "text": "τε",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 12,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 13,
+          "lemma": "τε",
+          "misc": null,
+          "text": "τε",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τε[1]"
+    },
+    {
+      "end_char": 269,
+      "id": [
+        13
+      ],
+      "identifier": "ἀπέχομεν[1]",
+      "misc": {
+        "heat": 1.6093880547066766
+      },
+      "ner": null,
+      "start_char": 261,
+      "text": "ἀπέχομεν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 13,
+          "deprel": "acl",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act",
+          "head": 7,
+          "lemma": "ἀπέχω",
+          "misc": null,
+          "text": "ἀπέχομεν",
+          "upos": "VERB",
+          "xpos": "v1ppia---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἀπέχομεν[1]"
+    },
+    {
+      "end_char": 273,
+      "id": [
+        14
+      ],
+      "identifier": "καὶ[3]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 270,
+      "text": "καὶ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 14,
+          "deprel": "cc",
+          "deps": null,
+          "feats": null,
+          "head": 13,
+          "lemma": "καί",
+          "misc": null,
+          "text": "καὶ",
+          "upos": "CCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@καὶ[3]"
+    },
+    {
+      "end_char": 282,
+      "id": [
+        15
+      ],
+      "identifier": "ὁποτέρως[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 274,
+      "text": "ὁποτέρως",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 15,
+          "deprel": "obj",
+          "deps": null,
+          "feats": null,
+          "head": 19,
+          "lemma": "ὁποτέρως",
+          "misc": null,
+          "text": "ὁποτέρως",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὁποτέρως[1]"
+    },
+    {
+      "end_char": 288,
+      "id": [
+        16
+      ],
+      "identifier": "ἔσται[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 283,
+      "text": "ἔσται",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 16,
+          "deprel": "cop",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid",
+          "head": 19,
+          "lemma": "εἰμί",
+          "misc": null,
+          "text": "ἔσται",
+          "upos": "AUX",
+          "xpos": "v3sfim---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἔσται[1]"
+    },
+    {
+      "end_char": 291,
+      "id": [
+        17
+      ],
+      "identifier": "ἐν[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 289,
+      "text": "ἐν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 17,
+          "deprel": "case",
+          "deps": null,
+          "feats": null,
+          "head": 18,
+          "lemma": "ἐν",
+          "misc": null,
+          "text": "ἐν",
+          "upos": "ADP",
+          "xpos": "r--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἐν[2]"
+    },
+    {
+      "end_char": 297,
+      "id": [
+        18
+      ],
+      "identifier": "ἀδήλῳ[1]",
+      "misc": {
+        "heat": -1.9741308837494336
+      },
+      "ner": null,
+      "start_char": 292,
+      "text": "ἀδήλῳ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 18,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Masc|Number=Sing",
+          "head": 19,
+          "lemma": "ἄδηλος",
+          "misc": null,
+          "text": "ἀδήλῳ",
+          "upos": "ADJ",
+          "xpos": "a-s---md-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἀδήλῳ[1]"
+    },
+    {
+      "end_char": 310,
+      "id": [
+        19
+      ],
+      "identifier": "κινδυνεύεται[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 298,
+      "text": "κινδυνεύεται",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 19,
+          "deprel": "conj",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid",
+          "head": 13,
+          "lemma": "κινδυνεύομαι",
+          "misc": null,
+          "text": "κινδυνεύεται",
+          "upos": "VERB",
+          "xpos": "v3spie---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@κινδυνεύεται[1]"
+    },
+    {
+      "end_char": 311,
+      "id": [
+        20
+      ],
+      "identifier": ".[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 310,
+      "text": ".",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 20,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 3,
+          "lemma": ".",
+          "misc": null,
+          "text": ".",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 318,
+      "id": [
+        1
+      ],
+      "identifier": "ἰόντες[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 312,
+      "text": "ἰόντες",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 1,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act",
+          "head": 11,
+          "lemma": "εἶμι",
+          "misc": null,
+          "text": "ἰόντες",
+          "upos": "VERB",
+          "xpos": "v-pppamn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἰόντες[1]"
+    },
+    {
+      "end_char": 321,
+      "id": [
+        2
+      ],
+      "identifier": "τε[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 319,
+      "text": "τε",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 2,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 11,
+          "lemma": "τε",
+          "misc": null,
+          "text": "τε",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τε[2]"
+    },
+    {
+      "end_char": 324,
+      "id": [
+        3
+      ],
+      "identifier": "οἱ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 322,
+      "text": "οἱ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 3,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur",
+          "head": 4,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "οἱ",
+          "upos": "DET",
+          "xpos": "l-p---mn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@οἱ[1]"
+    },
+    {
+      "end_char": 333,
+      "id": [
+        4
+      ],
+      "identifier": "ἄνθρωποι[1]",
+      "misc": {
+        "heat": 0.3163118224188869
+      },
+      "ner": null,
+      "start_char": 325,
+      "text": "ἄνθρωποι",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 4,
+          "deprel": "nsubj",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur",
+          "head": 11,
+          "lemma": "ἄνθρωπος",
+          "misc": null,
+          "text": "ἄνθρωποι",
+          "upos": "NOUN",
+          "xpos": "n-p---mn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἄνθρωποι[1]"
+    },
+    {
+      "end_char": 336,
+      "id": [
+        5
+      ],
+      "identifier": "ἐς[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 334,
+      "text": "ἐς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 5,
+          "deprel": "case",
+          "deps": null,
+          "feats": null,
+          "head": 7,
+          "lemma": "εἰς",
+          "misc": null,
+          "text": "ἐς",
+          "upos": "ADP",
+          "xpos": "r--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἐς[2]"
+    },
+    {
+      "end_char": 341,
+      "id": [
+        6
+      ],
+      "identifier": "τοὺς[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 337,
+      "text": "τοὺς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 6,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 7,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τοὺς",
+          "upos": "DET",
+          "xpos": "l-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τοὺς[1]"
+    },
+    {
+      "end_char": 350,
+      "id": [
+        7
+      ],
+      "identifier": "πολέμους[1]",
+      "misc": {
+        "heat": 2.1943216506263887
+      },
+      "ner": null,
+      "start_char": 342,
+      "text": "πολέμους",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 7,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 1,
+          "lemma": "πόλεμος",
+          "misc": null,
+          "text": "πολέμους",
+          "upos": "NOUN",
+          "xpos": "n-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πολέμους[1]"
+    },
+    {
+      "end_char": 354,
+      "id": [
+        8
+      ],
+      "identifier": "τῶν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 351,
+      "text": "τῶν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 8,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Neut|Number=Plur",
+          "head": 9,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τῶν",
+          "upos": "DET",
+          "xpos": "l-p---ng-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τῶν[1]"
+    },
+    {
+      "end_char": 360,
+      "id": [
+        9
+      ],
+      "identifier": "ἔργων[1]",
+      "misc": {
+        "heat": 0.25787980967220137
+      },
+      "ner": null,
+      "start_char": 355,
+      "text": "ἔργων",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 9,
+          "deprel": "nmod",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Neut|Number=Plur",
+          "head": 7,
+          "lemma": "ἔργον",
+          "misc": null,
+          "text": "ἔργων",
+          "upos": "NOUN",
+          "xpos": "n-p---ng-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἔργων[1]"
+    },
+    {
+      "end_char": 369,
+      "id": [
+        10
+      ],
+      "identifier": "πρότερον[1]",
+      "misc": {
+        "heat": 1.9762383266870613
+      },
+      "ner": null,
+      "start_char": 361,
+      "text": "πρότερον",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 10,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Neut|Number=Sing",
+          "head": 11,
+          "lemma": "πρότερος",
+          "misc": null,
+          "text": "πρότερον",
+          "upos": "ADJ",
+          "xpos": "a-s---na-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πρότερον[1]"
+    },
+    {
+      "end_char": 377,
+      "id": [
+        11
+      ],
+      "identifier": "ἔχονται[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 370,
+      "text": "ἔχονται",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 11,
+          "deprel": "root",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid",
+          "head": 0,
+          "lemma": "ἔχω",
+          "misc": null,
+          "text": "ἔχονται",
+          "upos": "VERB",
+          "xpos": "v3ppie---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἔχονται[1]"
+    },
+    {
+      "end_char": 378,
+      "id": [
+        12
+      ],
+      "identifier": ",[5]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 377,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 12,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 14,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 380,
+      "id": [
+        13
+      ],
+      "identifier": "ἃ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 379,
+      "text": "ἃ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 13,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Neut|Number=Plur",
+          "head": 16,
+          "lemma": "ὅς",
+          "misc": null,
+          "text": "ἃ",
+          "upos": "PRON",
+          "xpos": "p-p---na-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἃ[1]"
+    },
+    {
+      "end_char": 385,
+      "id": [
+        14
+      ],
+      "identifier": "χρῆν[1]",
+      "misc": {
+        "heat": -1.9094576734069983
+      },
+      "ner": null,
+      "start_char": 381,
+      "text": "χρῆν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 14,
+          "deprel": "ccomp",
+          "deps": null,
+          "feats": "Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act",
+          "head": 11,
+          "lemma": "χρή",
+          "misc": null,
+          "text": "χρῆν",
+          "upos": "VERB",
+          "xpos": "v3siia---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@χρῆν[1]"
+    },
+    {
+      "end_char": 393,
+      "id": [
+        15
+      ],
+      "identifier": "ὕστερον[1]",
+      "misc": {
+        "heat": -0.2231934090416337
+      },
+      "ner": null,
+      "start_char": 386,
+      "text": "ὕστερον",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 15,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Neut|Number=Sing",
+          "head": 16,
+          "lemma": "ὕστερος",
+          "misc": null,
+          "text": "ὕστερον",
+          "upos": "ADJ",
+          "xpos": "a-s---na-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὕστερον[1]"
+    },
+    {
+      "end_char": 398,
+      "id": [
+        16
+      ],
+      "identifier": "δρᾶν[1]",
+      "misc": {
+        "heat": -4.933083905800128
+      },
+      "ner": null,
+      "start_char": 394,
+      "text": "δρᾶν",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 16,
+          "deprel": "xcomp",
+          "deps": null,
+          "feats": "Tense=Pres|VerbForm=Inf|Voice=Act",
+          "head": 14,
+          "lemma": "δράω",
+          "misc": null,
+          "text": "δρᾶν",
+          "upos": "VERB",
+          "xpos": "v--pna---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@δρᾶν[1]"
+    },
+    {
+      "end_char": 399,
+      "id": [
+        17
+      ],
+      "identifier": ",[6]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 398,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 17,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 18,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 413,
+      "id": [
+        18
+      ],
+      "identifier": "κακοπαθοῦντες[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 400,
+      "text": "κακοπαθοῦντες",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 18,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act",
+          "head": 23,
+          "lemma": "κακοπαθέω",
+          "misc": null,
+          "text": "κακοπαθοῦντες",
+          "upos": "VERB",
+          "xpos": "v-pppamn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@κακοπαθοῦντες[1]"
+    },
+    {
+      "end_char": 416,
+      "id": [
+        19
+      ],
+      "identifier": "δὲ[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 414,
+      "text": "δὲ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 19,
+          "deprel": "cc",
+          "deps": null,
+          "feats": null,
+          "head": 11,
+          "lemma": "δέ",
+          "misc": null,
+          "text": "δὲ",
+          "upos": "CCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@δὲ[2]"
+    },
+    {
+      "end_char": 420,
+      "id": [
+        20
+      ],
+      "identifier": "ἤδη[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 417,
+      "text": "ἤδη",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 20,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 23,
+          "lemma": "ἤδη",
+          "misc": null,
+          "text": "ἤδη",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἤδη[1]"
+    },
+    {
+      "end_char": 424,
+      "id": [
+        21
+      ],
+      "identifier": "τῶν[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 421,
+      "text": "τῶν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 21,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Masc|Number=Plur",
+          "head": 22,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τῶν",
+          "upos": "DET",
+          "xpos": "l-p---mg-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τῶν[2]"
+    },
+    {
+      "end_char": 430,
+      "id": [
+        22
+      ],
+      "identifier": "λόγων[1]",
+      "misc": {
+        "heat": -5.390034412801284
+      },
+      "ner": null,
+      "start_char": 425,
+      "text": "λόγων",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 22,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Masc|Number=Plur",
+          "head": 23,
+          "lemma": "λόγος",
+          "misc": null,
+          "text": "λόγων",
+          "upos": "NOUN",
+          "xpos": "n-p---mg-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@λόγων[1]"
+    },
+    {
+      "end_char": 439,
+      "id": [
+        23
+      ],
+      "identifier": "ἅπτονται[1]",
+      "misc": {
+        "heat": 1.5140778749023518
+      },
+      "ner": null,
+      "start_char": 431,
+      "text": "ἅπτονται",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 23,
+          "deprel": "conj",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid",
+          "head": 11,
+          "lemma": "ἅπτω",
+          "misc": null,
+          "text": "ἅπτονται",
+          "upos": "VERB",
+          "xpos": "v3ppie---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἅπτονται[1]"
+    },
+    {
+      "end_char": 440,
+      "id": [
+        24
+      ],
+      "identifier": ".[3]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 439,
+      "text": ".",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 24,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 11,
+          "lemma": ".",
+          "misc": null,
+          "text": ".",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 446,
+      "id": [
+        1
+      ],
+      "identifier": "ἡμεῖς[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 441,
+      "text": "ἡμεῖς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 1,
+          "deprel": "nsubj",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur",
+          "head": 14,
+          "lemma": "ἐγώ",
+          "misc": null,
+          "text": "ἡμεῖς",
+          "upos": "PRON",
+          "xpos": "p1p---mn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἡμεῖς[1]"
+    },
+    {
+      "end_char": 449,
+      "id": [
+        2
+      ],
+      "identifier": "δὲ[3]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 447,
+      "text": "δὲ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 2,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 14,
+          "lemma": "δέ",
+          "misc": null,
+          "text": "δὲ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@δὲ[3]"
+    },
+    {
+      "end_char": 452,
+      "id": [
+        3
+      ],
+      "identifier": "ἐν[3]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 450,
+      "text": "ἐν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 3,
+          "deprel": "case",
+          "deps": null,
+          "feats": null,
+          "head": 7,
+          "lemma": "ἐν",
+          "misc": null,
+          "text": "ἐν",
+          "upos": "ADP",
+          "xpos": "r--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἐν[3]"
+    },
+    {
+      "end_char": 460,
+      "id": [
+        4
+      ],
+      "identifier": "οὐδεμιᾷ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 453,
+      "text": "οὐδεμιᾷ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 4,
+          "deprel": "nmod",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Fem|Number=Sing",
+          "head": 7,
+          "lemma": "οὐδείς",
+          "misc": null,
+          "text": "οὐδεμιᾷ",
+          "upos": "ADJ",
+          "xpos": "a-s---fd-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@οὐδεμιᾷ[1]"
+    },
+    {
+      "end_char": 463,
+      "id": [
+        5
+      ],
+      "identifier": "πω[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 461,
+      "text": "πω",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 5,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 14,
+          "lemma": "πω",
+          "misc": null,
+          "text": "πω",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πω[1]"
+    },
+    {
+      "end_char": 471,
+      "id": [
+        6
+      ],
+      "identifier": "τοιαύτῃ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 464,
+      "text": "τοιαύτῃ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 6,
+          "deprel": "nmod",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Fem|Number=Sing",
+          "head": 7,
+          "lemma": "τοιοῦτος",
+          "misc": null,
+          "text": "τοιαύτῃ",
+          "upos": "ADJ",
+          "xpos": "a-s---fd-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τοιαύτῃ[1]"
+    },
+    {
+      "end_char": 479,
+      "id": [
+        7
+      ],
+      "identifier": "ἁμαρτίᾳ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 472,
+      "text": "ἁμαρτίᾳ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 7,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Fem|Number=Sing",
+          "head": 14,
+          "lemma": "ἑμαρτία",
+          "misc": null,
+          "text": "ἁμαρτίᾳ",
+          "upos": "NOUN",
+          "xpos": "n-s---fd-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἁμαρτίᾳ[1]"
+    },
+    {
+      "end_char": 485,
+      "id": [
+        8
+      ],
+      "identifier": "ὄντες[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 480,
+      "text": "ὄντες",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 8,
+          "deprel": "cop",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act",
+          "head": 7,
+          "lemma": "εἰμί",
+          "misc": null,
+          "text": "ὄντες",
+          "upos": "AUX",
+          "xpos": "v-pppamn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὄντες[1]"
+    },
+    {
+      "end_char": 490,
+      "id": [
+        9
+      ],
+      "identifier": "οὔτ’[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 486,
+      "text": "οὔτ’",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 9,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 10,
+          "lemma": "οὔτι",
+          "misc": null,
+          "text": "οὔτ’",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@οὔτ’[1]"
+    },
+    {
+      "end_char": 496,
+      "id": [
+        10
+      ],
+      "identifier": "αὐτοὶ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 491,
+      "text": "αὐτοὶ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 10,
+          "deprel": "xcomp",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur",
+          "head": 14,
+          "lemma": "αὐτός",
+          "misc": null,
+          "text": "αὐτοὶ",
+          "upos": "PRON",
+          "xpos": "p-p---mn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@αὐτοὶ[1]"
+    },
+    {
+      "end_char": 501,
+      "id": [
+        11
+      ],
+      "identifier": "οὔθ’[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 497,
+      "text": "οὔθ’",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 11,
+          "deprel": "case",
+          "deps": null,
+          "feats": null,
+          "head": 12,
+          "lemma": "οὔτι",
+          "misc": null,
+          "text": "οὔθ’",
+          "upos": "ADP",
+          "xpos": "r--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@οὔθ’[1]"
+    },
+    {
+      "end_char": 506,
+      "id": [
+        12
+      ],
+      "identifier": "ὑμᾶς[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 502,
+      "text": "ὑμᾶς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 12,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 13,
+          "lemma": "σύ",
+          "misc": null,
+          "text": "ὑμᾶς",
+          "upos": "PRON",
+          "xpos": "p-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὑμᾶς[1]"
+    },
+    {
+      "end_char": 514,
+      "id": [
+        13
+      ],
+      "identifier": "ὁρῶντες[1]",
+      "misc": {
+        "heat": -1.29643996142618
+      },
+      "ner": null,
+      "start_char": 507,
+      "text": "ὁρῶντες",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 13,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act",
+          "head": 14,
+          "lemma": "ὁράω",
+          "misc": null,
+          "text": "ὁρῶντες",
+          "upos": "VERB",
+          "xpos": "v-pppamn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὁρῶντες[1]"
+    },
+    {
+      "end_char": 522,
+      "id": [
+        14
+      ],
+      "identifier": "λέγομεν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 515,
+      "text": "λέγομεν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 14,
+          "deprel": "root",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act",
+          "head": 0,
+          "lemma": "λέγω",
+          "misc": null,
+          "text": "λέγομεν",
+          "upos": "VERB",
+          "xpos": "v1ppia---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@λέγομεν[1]"
+    },
+    {
+      "end_char": 527,
+      "id": [
+        15
+      ],
+      "identifier": "ὑμῖν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 523,
+      "text": "ὑμῖν",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 15,
+          "deprel": "iobj",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Masc|Number=Plur",
+          "head": 14,
+          "lemma": "σύ",
+          "misc": null,
+          "text": "ὑμῖν",
+          "upos": "PRON",
+          "xpos": "p-p---md-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὑμῖν[1]"
+    },
+    {
+      "end_char": 528,
+      "id": [
+        16
+      ],
+      "identifier": ",[7]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 527,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 16,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 17,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 532,
+      "id": [
+        17
+      ],
+      "identifier": "ἕως[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 529,
+      "text": "ἕως",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 17,
+          "deprel": "mark",
+          "deps": null,
+          "feats": null,
+          "head": 19,
+          "lemma": "ἕως",
+          "misc": null,
+          "text": "ἕως",
+          "upos": "SCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἕως[1]"
+    },
+    {
+      "end_char": 536,
+      "id": [
+        18
+      ],
+      "identifier": "ἔτι[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 533,
+      "text": "ἔτι",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 18,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 19,
+          "lemma": "ἔτι",
+          "misc": null,
+          "text": "ἔτι",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἔτι[1]"
+    },
+    {
+      "end_char": 547,
+      "id": [
+        19
+      ],
+      "identifier": "αὐθαίρετος[1]",
+      "misc": {
+        "heat": -1.1632006675331048
+      },
+      "ner": null,
+      "start_char": 537,
+      "text": "αὐθαίρετος",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 19,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Sing",
+          "head": 14,
+          "lemma": "αὐθαίρετος",
+          "misc": null,
+          "text": "αὐθαίρετος",
+          "upos": "ADJ",
+          "xpos": "a-s---mn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@αὐθαίρετος[1]"
+    },
+    {
+      "end_char": 558,
+      "id": [
+        20
+      ],
+      "identifier": "ἀμφοτέροις[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 548,
+      "text": "ἀμφοτέροις",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 20,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Masc|Number=Plur",
+          "head": 19,
+          "lemma": "ἀμφότερος",
+          "misc": null,
+          "text": "ἀμφοτέροις",
+          "upos": "ADJ",
+          "xpos": "a-p---md-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἀμφοτέροις[1]"
+    },
+    {
+      "end_char": 560,
+      "id": [
+        21
+      ],
+      "identifier": "ἡ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 559,
+      "text": "ἡ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 21,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Fem|Number=Sing",
+          "head": 22,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "ἡ",
+          "upos": "DET",
+          "xpos": "l-s---fn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἡ[1]"
+    },
+    {
+      "end_char": 569,
+      "id": [
+        22
+      ],
+      "identifier": "εὐβουλία[1]",
+      "misc": {
+        "heat": -1.3863442188473145
+      },
+      "ner": null,
+      "start_char": 561,
+      "text": "εὐβουλία",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 22,
+          "deprel": "nsubj",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Fem|Number=Sing",
+          "head": 19,
+          "lemma": "εὐβουλία",
+          "misc": null,
+          "text": "εὐβουλία",
+          "upos": "NOUN",
+          "xpos": "n-s---fn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@εὐβουλία[1]"
+    },
+    {
+      "end_char": 570,
+      "id": [
+        23
+      ],
+      "identifier": ",[8]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 569,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 23,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 26,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 578,
+      "id": [
+        24
+      ],
+      "identifier": "σπονδὰς[1]",
+      "misc": {
+        "heat": -1.317351347360363
+      },
+      "ner": null,
+      "start_char": 571,
+      "text": "σπονδὰς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 24,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Fem|Number=Plur",
+          "head": 26,
+          "lemma": "σπονδή",
+          "misc": null,
+          "text": "σπονδὰς",
+          "upos": "NOUN",
+          "xpos": "n-p---fa-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@σπονδὰς[1]"
+    },
+    {
+      "end_char": 581,
+      "id": [
+        25
+      ],
+      "identifier": "μὴ[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 579,
+      "text": "μὴ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 25,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 26,
+          "lemma": "μή",
+          "misc": null,
+          "text": "μὴ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@μὴ[2]"
+    },
+    {
+      "end_char": 587,
+      "id": [
+        26
+      ],
+      "identifier": "λύειν[1]",
+      "misc": {
+        "heat": 1.3217059822548956
+      },
+      "ner": null,
+      "start_char": 582,
+      "text": "λύειν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 26,
+          "deprel": "ccomp",
+          "deps": null,
+          "feats": "Tense=Pres|VerbForm=Inf|Voice=Act",
+          "head": 14,
+          "lemma": "λύω",
+          "misc": null,
+          "text": "λύειν",
+          "upos": "VERB",
+          "xpos": "v--pna---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@λύειν[1]"
+    },
+    {
+      "end_char": 592,
+      "id": [
+        27
+      ],
+      "identifier": "μηδὲ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 588,
+      "text": "μηδὲ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 27,
+          "deprel": "cc",
+          "deps": null,
+          "feats": null,
+          "head": 26,
+          "lemma": "μηδέ",
+          "misc": null,
+          "text": "μηδὲ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@μηδὲ[1]"
+    },
+    {
+      "end_char": 604,
+      "id": [
+        28
+      ],
+      "identifier": "παραβαίνειν[1]",
+      "misc": {
+        "heat": 0.9162408741467312
+      },
+      "ner": null,
+      "start_char": 593,
+      "text": "παραβαίνειν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 28,
+          "deprel": "conj",
+          "deps": null,
+          "feats": "Tense=Pres|VerbForm=Inf|Voice=Act",
+          "head": 26,
+          "lemma": "παραβαίνω",
+          "misc": null,
+          "text": "παραβαίνειν",
+          "upos": "VERB",
+          "xpos": "v--pna---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@παραβαίνειν[1]"
+    },
+    {
+      "end_char": 609,
+      "id": [
+        29
+      ],
+      "identifier": "τοὺς[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 605,
+      "text": "τοὺς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 29,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 30,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τοὺς",
+          "upos": "DET",
+          "xpos": "l-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τοὺς[2]"
+    },
+    {
+      "end_char": 616,
+      "id": [
+        30
+      ],
+      "identifier": "ὅρκους[1]",
+      "misc": {
+        "heat": -0.1823714145213787
+      },
+      "ner": null,
+      "start_char": 610,
+      "text": "ὅρκους",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 30,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 28,
+          "lemma": "ὅρκος",
+          "misc": null,
+          "text": "ὅρκους",
+          "upos": "NOUN",
+          "xpos": "n-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὅρκους[1]"
+    },
+    {
+      "end_char": 617,
+      "id": [
+        31
+      ],
+      "identifier": ",[9]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 616,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 31,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 32,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 620,
+      "id": [
+        32
+      ],
+      "identifier": "τὰ[2]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 618,
+      "text": "τὰ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 32,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Neut|Number=Plur",
+          "head": 34,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τὰ",
+          "upos": "DET",
+          "xpos": "l-p---na-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τὰ[2]"
+    },
+    {
+      "end_char": 623,
+      "id": [
+        33
+      ],
+      "identifier": "δὲ[4]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 621,
+      "text": "δὲ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 33,
+          "deprel": "cc",
+          "deps": null,
+          "feats": null,
+          "head": 26,
+          "lemma": "δέ",
+          "misc": null,
+          "text": "δὲ",
+          "upos": "CCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@δὲ[4]"
+    },
+    {
+      "end_char": 631,
+      "id": [
+        34
+      ],
+      "identifier": "διάφορα[1]",
+      "misc": {
+        "heat": -1.8563478480930502
+      },
+      "ner": null,
+      "start_char": 624,
+      "text": "διάφορα",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 34,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Neut|Number=Plur",
+          "head": 36,
+          "lemma": "διάφορος",
+          "misc": null,
+          "text": "διάφορα",
+          "upos": "NOUN",
+          "xpos": "n-p---na-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@διάφορα[1]"
+    },
+    {
+      "end_char": 636,
+      "id": [
+        35
+      ],
+      "identifier": "δίκῃ[1]",
+      "misc": {
+        "heat": -2.715134085487014
+      },
+      "ner": null,
+      "start_char": 632,
+      "text": "δίκῃ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 35,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Fem|Number=Sing",
+          "head": 36,
+          "lemma": "δίκη",
+          "misc": null,
+          "text": "δίκῃ",
+          "upos": "NOUN",
+          "xpos": "n-s---fd-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@δίκῃ[1]"
+    },
+    {
+      "end_char": 644,
+      "id": [
+        36
+      ],
+      "identifier": "λύεσθαι[1]",
+      "misc": {
+        "heat": 1.3217059822548956
+      },
+      "ner": null,
+      "start_char": 637,
+      "text": "λύεσθαι",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 36,
+          "deprel": "conj",
+          "deps": null,
+          "feats": "Tense=Pres|VerbForm=Inf|Voice=Mid",
+          "head": 26,
+          "lemma": "λύω",
+          "misc": null,
+          "text": "λύεσθαι",
+          "upos": "VERB",
+          "xpos": "v--pne---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@λύεσθαι[1]"
+    },
+    {
+      "end_char": 649,
+      "id": [
+        37
+      ],
+      "identifier": "κατὰ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 645,
+      "text": "κατὰ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 37,
+          "deprel": "case",
+          "deps": null,
+          "feats": null,
+          "head": 39,
+          "lemma": "κατά",
+          "misc": null,
+          "text": "κατὰ",
+          "upos": "ADP",
+          "xpos": "r--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@κατὰ[1]"
+    },
+    {
+      "end_char": 653,
+      "id": [
+        38
+      ],
+      "identifier": "τὴν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 650,
+      "text": "τὴν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 38,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Fem|Number=Sing",
+          "head": 39,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τὴν",
+          "upos": "DET",
+          "xpos": "l-s---fa-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τὴν[1]"
+    },
+    {
+      "end_char": 662,
+      "id": [
+        39
+      ],
+      "identifier": "ξυνθήκην[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 654,
+      "text": "ξυνθήκην",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 39,
+          "deprel": "obl",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Fem|Number=Sing",
+          "head": 36,
+          "lemma": "ξυνθήκη",
+          "misc": null,
+          "text": "ξυνθήκην",
+          "upos": "NOUN",
+          "xpos": "n-s---fa-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ξυνθήκην[1]"
+    },
+    {
+      "end_char": 663,
+      "id": [
+        40
+      ],
+      "identifier": ".[4]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 662,
+      "text": ".",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 40,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 14,
+          "lemma": ".",
+          "misc": null,
+          "text": ".",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 666,
+      "id": [
+        1
+      ],
+      "identifier": "εἰ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 664,
+      "text": "εἰ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 1,
+          "deprel": "mark",
+          "deps": null,
+          "feats": null,
+          "head": 10,
+          "lemma": "εἰ",
+          "misc": null,
+          "text": "εἰ",
+          "upos": "SCONJ",
+          "xpos": "c--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@εἰ[1]"
+    },
+    {
+      "end_char": 669,
+      "id": [
+        2
+      ],
+      "identifier": "δὲ[5]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 667,
+      "text": "δὲ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 2,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 10,
+          "lemma": "δέ",
+          "misc": null,
+          "text": "δὲ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@δὲ[5]"
+    },
+    {
+      "end_char": 672,
+      "id": [
+        3
+      ],
+      "identifier": "μή[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 670,
+      "text": "μή",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 3,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 10,
+          "lemma": "μή",
+          "misc": null,
+          "text": "μή",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@μή[1]"
+    },
+    {
+      "end_char": 673,
+      "id": [
+        4
+      ],
+      "identifier": ",[10]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 672,
+      "text": ",",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 4,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 3,
+          "lemma": ",",
+          "misc": null,
+          "text": ",",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 679,
+      "id": [
+        5
+      ],
+      "identifier": "θεοὺς[1]",
+      "misc": {
+        "heat": -0.30829820776068195
+      },
+      "ner": null,
+      "start_char": 674,
+      "text": "θεοὺς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 5,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 9,
+          "lemma": "θεός",
+          "misc": null,
+          "text": "θεοὺς",
+          "upos": "NOUN",
+          "xpos": "n-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@θεοὺς[1]"
+    },
+    {
+      "end_char": 684,
+      "id": [
+        6
+      ],
+      "identifier": "τοὺς[3]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 680,
+      "text": "τοὺς",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 6,
+          "deprel": "det",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 5,
+          "lemma": "ὁ",
+          "misc": null,
+          "text": "τοὺς",
+          "upos": "DET",
+          "xpos": "l-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@τοὺς[3]"
+    },
+    {
+      "end_char": 692,
+      "id": [
+        7
+      ],
+      "identifier": "ὁρκίους[1]",
+      "misc": {
+        "heat": -0.8755185950813239
+      },
+      "ner": null,
+      "start_char": 685,
+      "text": "ὁρκίους",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 7,
+          "deprel": "nmod",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 8,
+          "lemma": "ὅρκιος",
+          "misc": null,
+          "text": "ὁρκίους",
+          "upos": "ADJ",
+          "xpos": "a-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὁρκίους[1]"
+    },
+    {
+      "end_char": 701,
+      "id": [
+        8
+      ],
+      "identifier": "μάρτυρας[1]",
+      "misc": {
+        "heat": -2.6672780643093787
+      },
+      "ner": null,
+      "start_char": 693,
+      "text": "μάρτυρας",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 8,
+          "deprel": "nmod",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur",
+          "head": 5,
+          "lemma": "μάρτυς",
+          "misc": null,
+          "text": "μάρτυρας",
+          "upos": "NOUN",
+          "xpos": "n-p---ma-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@μάρτυρας[1]"
+    },
+    {
+      "end_char": 712,
+      "id": [
+        9
+      ],
+      "identifier": "ποιούμενοι[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 702,
+      "text": "ποιούμενοι",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 9,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid",
+          "head": 10,
+          "lemma": "ποιέω",
+          "misc": null,
+          "text": "ποιούμενοι",
+          "upos": "VERB",
+          "xpos": "v-pppemn-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ποιούμενοι[1]"
+    },
+    {
+      "end_char": 724,
+      "id": [
+        10
+      ],
+      "identifier": "πειρασόμεθα[1]",
+      "misc": {
+        "heat": 1.9756324496615594
+      },
+      "ner": null,
+      "start_char": 713,
+      "text": "πειρασόμεθα",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 10,
+          "deprel": "root",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid",
+          "head": 0,
+          "lemma": "πειράω",
+          "misc": null,
+          "text": "πειρασόμεθα",
+          "upos": "VERB",
+          "xpos": "v1pfim---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πειρασόμεθα[1]"
+    },
+    {
+      "end_char": 734,
+      "id": [
+        11
+      ],
+      "identifier": "ἀμύνεσθαι[1]",
+      "misc": {
+        "heat": 1.3217059822548956
+      },
+      "ner": null,
+      "start_char": 725,
+      "text": "ἀμύνεσθαι",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 11,
+          "deprel": "xcomp",
+          "deps": null,
+          "feats": "Tense=Pres|VerbForm=Inf|Voice=Mid",
+          "head": 10,
+          "lemma": "ἀμύνω",
+          "misc": null,
+          "text": "ἀμύνεσθαι",
+          "upos": "VERB",
+          "xpos": "v--pne---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἀμύνεσθαι[1]"
+    },
+    {
+      "end_char": 742,
+      "id": [
+        12
+      ],
+      "identifier": "πολέμου[2]",
+      "misc": {
+        "heat": 2.1943216506263887
+      },
+      "ner": null,
+      "start_char": 735,
+      "text": "πολέμου",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 12,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Gen|Gender=Masc|Number=Sing",
+          "head": 13,
+          "lemma": "πόλεμος",
+          "misc": null,
+          "text": "πολέμου",
+          "upos": "NOUN",
+          "xpos": "n-s---mg-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@πολέμου[2]"
+    },
+    {
+      "end_char": 751,
+      "id": [
+        13
+      ],
+      "identifier": "ἄρχοντας[1]",
+      "misc": {
+        "heat": 0.8187855379960182
+      },
+      "ner": null,
+      "start_char": 743,
+      "text": "ἄρχοντας",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 13,
+          "deprel": "advcl",
+          "deps": null,
+          "feats": "Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act",
+          "head": 11,
+          "lemma": "ἄρχω",
+          "misc": null,
+          "text": "ἄρχοντας",
+          "upos": "VERB",
+          "xpos": "v-pppama-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἄρχοντας[1]"
+    },
+    {
+      "end_char": 757,
+      "id": [
+        14
+      ],
+      "identifier": "ταύτῃ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 752,
+      "text": "ταύτῃ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 14,
+          "deprel": "obj",
+          "deps": null,
+          "feats": "Case=Dat|Gender=Fem|Number=Sing",
+          "head": 13,
+          "lemma": "οὗτος",
+          "misc": null,
+          "text": "ταύτῃ",
+          "upos": "PRON",
+          "xpos": "p-s---fd-"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ταύτῃ[1]"
+    },
+    {
+      "end_char": 759,
+      "id": [
+        15
+      ],
+      "identifier": "ᾗ[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 758,
+      "text": "ᾗ",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 15,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 17,
+          "lemma": "ᾗ",
+          "misc": null,
+          "text": "ᾗ",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ᾗ[1]"
+    },
+    {
+      "end_char": 762,
+      "id": [
+        16
+      ],
+      "identifier": "ἂν[1]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 760,
+      "text": "ἂν",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 16,
+          "deprel": "advmod",
+          "deps": null,
+          "feats": null,
+          "head": 17,
+          "lemma": "ἄν",
+          "misc": null,
+          "text": "ἂν",
+          "upos": "ADV",
+          "xpos": "d--------"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ἂν[1]"
+    },
+    {
+      "end_char": 771,
+      "id": [
+        17
+      ],
+      "identifier": "ὑφηγῆσθε[1]",
+      "misc": {
+        "heat": -0.47005348697315946
+      },
+      "ner": null,
+      "start_char": 763,
+      "text": "ὑφηγῆσθε",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 17,
+          "deprel": "acl",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid",
+          "head": 14,
+          "lemma": "ὑφηγέομαι",
+          "misc": null,
+          "text": "ὑφηγῆσθε",
+          "upos": "VERB",
+          "xpos": "v2pamm---"
+        }
+      ],
+      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2:1.78@ὑφηγῆσθε[1]"
+    },
+    {
+      "end_char": 772,
+      "id": [
+        18
+      ],
+      "identifier": ".[5]",
+      "misc": {
+        "heat": 0.0
+      },
+      "ner": null,
+      "start_char": 771,
+      "text": ".",
+      "whitespace": false,
+      "words": [
+        {
+          "id": 18,
+          "deprel": "punct",
+          "deps": null,
+          "feats": null,
+          "head": 10,
+          "lemma": ".",
+          "misc": null,
+          "text": ".",
+          "upos": "PUNCT",
+          "xpos": "u--------"
+        }
+      ],
+      "urn": null
+    },
+    {
+      "end_char": 773,
+      "id": [
+        1
+      ],
+      "identifier": "’[1]",
+      "misc": {
+        "heat": 1.877231784938793
+      },
+      "ner": null,
+      "start_char": 772,
+      "text": "’",
+      "whitespace": true,
+      "words": [
+        {
+          "id": 1,
+          "deprel": "root",
+          "deps": null,
+          "feats": "Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act",
+          "head": 0,
+          "lemma": "ἵημι",
+          "misc": null,
+          "text": "’",
+          "upos": "VERB",
+          "xpos": "v2spia---"
+        }
+      ],
+      "urn": null
+    }
+  ]
+}
