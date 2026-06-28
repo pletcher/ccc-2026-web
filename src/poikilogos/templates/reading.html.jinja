@@ -138,6 +138,17 @@
     const lineEls = document.getElementsByClassName("tei-l");
     const tokenEls = document.getElementsByClassName("tei-token");
 
+    Array.from(lineEls).forEach(line => {
+        const tokens = line.getElementsByClassName("tei-token")
+        const lineHeat = Array.from(tokens)
+            .map(t => parseFloat(t.dataset.heat))
+            .reduce((sum, heat) => (sum + heat));
+
+        // we're using the opposite polarity of TVV's default scale, so
+        // flip it here
+        line.setAttribute("style", `--tvv-value: ${-lineHeat}`);
+    })
+
     document.getElementById("heatmap-toggle").addEventListener("change", (e) => {
         if (e.target.checked) {
             Array.from(tokenEls).forEach(el => {

@@ -199,9 +199,9 @@ def inject_tokens(elements: list[dict], tokens: list[dict]) -> None:
 def _inject_into_element(el: dict, tokens: list[dict]) -> None:
     new_children = []
     for child in el.get("children", []):
-        if child.get("tagname") == "l":
-            heat = HEAT_BY_URN.get(child.get("urn"), 0.0)
-            child = {**child, "line_heat": heat}
+        # if child.get("tagname") == "l":
+        #     heat = HEAT_BY_URN.get(child.get("urn"), 0.0)
+        #     child = {**child, "line_heat": heat}
 
         if child.get("tagname") == "text_run" and "start" in child:
             run_tokens = [
