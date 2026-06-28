@@ -14,11 +14,14 @@ def chunk_corpus(corpus_dir: Path, protopage_dir: Path):
     corpus = Corpus(corpus_dir)
 
     for doc in corpus.documents():
-        try:
-            compiler = Chunker(doc)
-            compiler.compile(protopage_dir / _urn_to_path(doc.metadata.urn))
-        except Exception as exc:
-            print(f"  FAILED:    {doc.path.name}: {exc}")
+        if doc.metadata.urn.startswith(
+            "urn:cts:greekLit:tlg0016.tlg001"
+        ) or doc.metadata.urn.startswith("urn:cts:greekLit:tlg0003.tlg001"):
+            try:
+                compiler = Chunker(doc)
+                compiler.compile(protopage_dir / _urn_to_path(doc.metadata.urn))
+            except Exception as exc:
+                print(f"  FAILED:    {doc.path.name}: {exc}")
 
 
 ROOT_DIR = Path(__file__).parent.parent
