@@ -4,6 +4,6 @@
         data-speech-narrative-heat="{{ text_container.speech_narrative_heat }}"
         class="tei-token tvv tvv-center tvv-wash"
         style="--tvv-value: {{ -(text_container.heat|float) }}"
-        title="Heat {{ (text_container.heat|float) }}"
+        title="tragedy/epic heat: {{ -(text_container.heat|float) }}; epic narrative/speech heat: {{ (text_container.speech_narrative_heat|float) }}"
 >{{ text_container.text }}</span>
 {% if text_container.whitespace %} {% endif %}

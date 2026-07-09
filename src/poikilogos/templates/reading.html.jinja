@@ -35,10 +35,10 @@
             </div>
             <div>
                 <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-64 border p-4">
-                    <legend class="fieldset-legend">Heatmap options</legend>
+                    <legend class="fieldset-legend">Heat options</legend>
                     <label class="label">
                         <input type="checkbox" class="toggle" id="heat-type-toggle" />
-                        Heat by epic vs. tragedy (default) or speech vs. narrative (toggle on)
+                        Heat by tragedy vs. epic (default) or speech vs. narrative (toggle on)
                     </label>
                 </fieldset>
             </div>
@@ -150,9 +150,9 @@
 
     let heatType = "heat";
 
-    function updateTvvValues() {
+    function updateTvvValues(flipPolarity) {
         Array.from(tokenEls).forEach(token => {
-            token.setAttribute("style", `--tvv-value: ${-token.dataset[heatType]}`);
+            token.setAttribute("style", `--tvv-value: ${flipPolarity ? -token.dataset[heatType] : token.dataset[heatType]}`);
         });
 
         Array.from(lineEls).forEach(line => {
@@ -163,7 +163,7 @@
 
             // we're using the opposite polarity of TVV's default scale, so
             // flip it here
-            line.setAttribute("style", `--tvv-value: ${-lineHeat}`);
+            line.setAttribute("style", `--tvv-value: ${flipPolarity ? -lineHeat : lineHeat}`);
         });
 
         Array.from(pEls).forEach(p => {
@@ -174,11 +174,11 @@
 
             // we're using the opposite polarity of TVV's default scale, so
             // flip it here
-            p.setAttribute("style", `--tvv-value: ${-pHeat}`);
+            p.setAttribute("style", `--tvv-value: ${flipPolarity ? -pHeat : pHeat}`);
         });
     }
 
-    updateTvvValues();
+    updateTvvValues(true);
 
     document.getElementById("heat-type-toggle").addEventListener("change", (e) => {
         if (e.target.checked) {
@@ -191,7 +191,7 @@
             document.getElementById("epic-speech").textContent = "Epic";
         }
 
-        updateTvvValues();
+        updateTvvValues(!e.target.checked);
     });
 
     document.getElementById("heatmap-toggle").addEventListener("change", (e) => {
