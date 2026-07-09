@@ -22,6 +22,9 @@ with (ROOT_DIR / "scripts" / "tragedy_urn_heat.json").open() as f:
 with (ROOT_DIR / "scripts" / "epic_tragic.json").open() as f:
     HEAT_BY_TOKEN = json.load(f)
 
+with (ROOT_DIR / "scripts" / "speech_narrative.json").open() as f:
+    SPEECH_NARRATIVE_HEAT = json.load(f)
+
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -215,6 +218,13 @@ def _inject_into_element(el: dict, tokens: list[dict]) -> None:
                         "heat": sum(
                             [
                                 float(HEAT_BY_TOKEN.get(w.get("lemma"), "0.0"))
+                                for w in t.get("words")
+                            ]
+                        )
+                        / len(t.get("words", [1])),
+                        "speech_narrative_heat": sum(
+                            [
+                                float(SPEECH_NARRATIVE_HEAT.get(w.get("lemma"), "0.0"))
                                 for w in t.get("words")
                             ]
                         )

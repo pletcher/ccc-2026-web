@@ -3,17 +3,25 @@ import json
 
 from pathlib import Path
 
-EPIC_TRAGIC_CSV = Path(__file__).parent / "epic_tragic.csv"
-EPIC_TRAGIC_JSON = Path(__file__).parent / "epic_tragic.json"
+SPEECH_NARRATIVE_CSV = Path(__file__).parent / "speech_narrative.csv"
+SPEECH_NARRATIVE_JSON = Path(__file__).parent / "speech_narrative.json"
 
 
 def main():
-    with EPIC_TRAGIC_CSV.open() as f:
+    with SPEECH_NARRATIVE_CSV.open() as f:
         reader = csv.reader(f)
-        as_dict = {row[0]: row[1] for row in reader}
+        my_dict = {}
 
-        with EPIC_TRAGIC_JSON.open("w") as g:
-            json.dump(as_dict, g, ensure_ascii=False, indent=2)
+        for row in reader:
+            try:
+                # FIXME: we need to swap the polarity for speech and narrative only; don't do this
+                # for epic and tragedy
+                my_dict[row[0]] = -float(row[1])
+            except Exception:
+                continue
+
+        with SPEECH_NARRATIVE_JSON.open("w") as g:
+            json.dump(my_dict, g, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":

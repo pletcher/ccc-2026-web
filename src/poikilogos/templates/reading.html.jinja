@@ -21,8 +21,8 @@
 
         <div class="hero-content w-full">
             <div>
-                <div><span class="px-4 mr-2" style="background-color: #799ccd;"></span> Tragedy</div>
-                <div><span class="px-4 mr-2" style="background-color: #cd9279;"></span> Epic</div>
+                <div><span class="px-4 mr-2" style="background-color: #799ccd;"></span> <span id="tragedy-narrative">Tragedy</span></div>
+                <div><span class="px-4 mr-2" style="background-color: #cd9279;"></span> <span id="epic-speech">Epic</span></div>
             </div>
             <div>
                 <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-64 border p-4">
@@ -30,6 +30,15 @@
                     <label class="label">
                         <input type="checkbox" class="toggle" id="heatmap-toggle" />
                         Heatmap by line/paragraph
+                    </label>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset class="fieldset bg-base-100 border-base-300 rounded-box w-64 border p-4">
+                    <legend class="fieldset-legend">Heatmap options</legend>
+                    <label class="label">
+                        <input type="checkbox" class="toggle" id="heat-type-toggle" />
+                        Heat by epic vs. tragedy (default) or speech vs. narrative (toggle on)
                     </label>
                 </fieldset>
             </div>
@@ -139,26 +148,50 @@
     const pEls = document.getElementsByClassName("tei-p");
     const tokenEls = document.getElementsByClassName("tei-token");
 
-    Array.from(lineEls).forEach(line => {
-        const tokens = line.getElementsByClassName("tei-token")
-        const lineHeat = Array.from(tokens)
-            .map(t => parseFloat(t.dataset.heat))
-            .reduce((sum, heat) => (sum + heat));
+    let heatType = "heat";
 
-        // we're using the opposite polarity of TVV's default scale, so
-        // flip it here
-        line.setAttribute("style", `--tvv-value: ${-lineHeat}`);
-    });
+    function updateTvvValues() {
+        Array.from(tokenEls).forEach(token => {
+            token.setAttribute("style", `--tvv-value: ${-token.dataset[heatType]}`);
+        });
 
-    Array.from(pEls).forEach(p => {
-        const tokens = p.getElementsByClassName("tei-token")
-        const pHeat = Array.from(tokens)
-            .map(t => parseFloat(t.dataset.heat))
-            .reduce((sum, heat) => (sum + heat));
+        Array.from(lineEls).forEach(line => {
+            const tokens = line.getElementsByClassName("tei-token")
+            const lineHeat = Array.from(tokens)
+                .map(t => parseFloat(t.dataset[heatType]))
+                .reduce((sum, heat) => (sum + heat), 0);
 
-        // we're using the opposite polarity of TVV's default scale, so
-        // flip it here
-        p.setAttribute("style", `--tvv-value: ${-pHeat}`);
+            // we're using the opposite polarity of TVV's default scale, so
+            // flip it here
+            line.setAttribute("style", `--tvv-value: ${-lineHeat}`);
+        });
+
+        Array.from(pEls).forEach(p => {
+            const tokens = p.getElementsByClassName("tei-token")
+            const pHeat = Array.from(tokens)
+                .map(t => parseFloat(t.dataset[heatType]))
+                .reduce((sum, heat) => (sum + heat), 0);
+
+            // we're using the opposite polarity of TVV's default scale, so
+            // flip it here
+            p.setAttribute("style", `--tvv-value: ${-pHeat}`);
+        });
+    }
+
+    updateTvvValues();
+
+    document.getElementById("heat-type-toggle").addEventListener("change", (e) => {
+        if (e.target.checked) {
+            heatType = "speechNarrativeHeat";
+            document.getElementById("tragedy-narrative").textContent = "Narrative";
+            document.getElementById("epic-speech").textContent = "Speech";
+        } else {
+            heatType = "heat";
+            document.getElementById("tragedy-narrative").textContent = "Tragedy";
+            document.getElementById("epic-speech").textContent = "Epic";
+        }
+
+        updateTvvValues();
     });
 
     document.getElementById("heatmap-toggle").addEventListener("change", (e) => {
